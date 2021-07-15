@@ -5,6 +5,7 @@
 % beat EEEEe 
 % beat EEEEe 
 % beat EEEEe 
+% beat EEEEe 
 start(Name, Brand) ->
     spawn(?MODULE, init,[self(),Name,Brand]).
 
