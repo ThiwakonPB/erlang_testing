@@ -3,6 +3,8 @@
 -record(food,{server,name,brand}).
 
 % beat EEEEe
+% heyyyy yay
+% me woring harddddddd 
 start(Name, Brand) ->
     spawn(?MODULE, init,[self(),Name,Brand]).
 
