@@ -25,6 +25,7 @@ loop(S = #state{}) ->
             Newitems = orddict:store(Ref, Items, S#state.items),
             Pid ! {MsgRef, ok},
             loop(S#state{items = Newitems})
+
     end.
 
 % loop(S=#state{}) ->
